@@ -14,6 +14,16 @@ Degree
 20  business
 21  economics
 
-Income
+Income (annual)
 -1  debt payment exceeds income
 0  no income
+
+Mortgage (monthly)
+-1  renting
+0  no mortgage
+
+Married
+0  never married
+-1  divorced
+-2  widowed
+1  currently married
