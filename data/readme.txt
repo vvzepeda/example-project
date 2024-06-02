@@ -14,7 +14,10 @@ Degree
 20  business
 21  economics
 
+30 computer science
+
 Income (annual)
+9999999  missing
 -1  debt payment exceeds income
 0  no income
 
