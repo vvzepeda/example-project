@@ -108,7 +108,7 @@ import excel "data\raw\Survey Data.xlsx", sheet("Sheet1") firstrow clear
 ** Task 8: Create a new variable "degree_type" that has 3 categories: SSHA, Engineering, and Natural Science with the number 1, 2, and 3 representing the categories. Use the "Degree" variable to decide how to assign the values 1, 2, and 3. Assign appropriate labels to the "degree_type" categories.
 
 
-** Task 9: Save the data.
+** Task 9: Save the data. Do not name it "example-cleaned"
 
 
 ** Bonus Task: Run a regression: income on age. What do you see?
