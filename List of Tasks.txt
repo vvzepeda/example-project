@@ -1,0 +1,11 @@
+1. Identify and drop any observation with missing data.
+2. Calculate the ratio of female students.
+3. Create a new variable "mortgaged_cleaned" that has the annual mortgage payment. Any renter should be recorded as having 0 mortgage.
+4. Create a new variable "married_cleaned" that has 1 for currently married and 0 for all other states. What is the ratio of married individuals?
+5. Create a new variable "crime_cleaned" that has 1 if there is a felony record and 0 otherwise. What is the ratio of criminals?
+6. Create a new variable "foreign_cleaned" that has 1 if foreign born and 0 otherwise. What is the ratio of foreign born individuals?
+7. Create a new variable "total_income" that is the sum of income and stocks gains.
+8. Assign labels to the "Degree" variable to identify by major.
+
+
+Bonus. Run a regression: income on age. What do you see?
