@@ -20,7 +20,7 @@ Task 0: Calculate the average income. What is wrong with this number?
 
 Task 1: Drop any observations with missing data for income. Drop any observation where age is less than 21 and any observation where the individual is foreign born.
 
-Task 2: Create a new variable "female" that is equaled to 1 if sex is "F" and equaled to 0 if sex is "M." Calculate the ratio of female students. Create a new variable "mortgaged_cleaned" that has the annual mortgage payment. Any renter should be recorded as having 0 mortgage. Create a new variable "ever_married" that has is equaled to 1 for currently married, divorced, and widowed and 0 if never married. Calculate the ratio of married individuals. Create a new variable "criminal" that has 1 if there is a felony record and 0 otherwise. Calculate the ratio of criminals.
+Task 2: Create a new variable "female" that is equaled to 1 if sex is "F" and equaled to 0 if sex is "M." Calculate the ratio of female students. Create a new variable "mortgaged_cleaned" that has the annual mortgage payment. Any renter should be recorded as having 0 mortgage. Create a new variable "ever_married" that has is equaled to 1 for currently married, divorced, and widowed and 0 if never married. Calculate the ratio of married individuals. Create a new variable "criminal" that has 1 if there is a felony record and 0 otherwise. Calculate the ratio of criminals. Create a new variable "veteran" that is equaled to 1 if individual has ever served in the military but otherwise equaled to 0.
 
 Task 3: Count the number of renters. Count the number of married individuals. Browse to find "Waldo" and let me know if he is married.
 

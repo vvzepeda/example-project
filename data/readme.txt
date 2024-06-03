@@ -13,6 +13,7 @@ Degree
 
 20  business
 21  economics
+22  finance
 
 30 computer science
 
@@ -30,3 +31,8 @@ Married
 -1  divorced
 -2  widowed
 1  currently married
+
+Military Service
+Active  currently active service
+2  former service with 2 years
+4  former service with 4 years
