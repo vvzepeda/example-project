@@ -11,7 +11,7 @@ local project_dir "C:\Users\tonym\Documents\GitHub\example-project\"
 cd `project_dir'
 
 // Loads the data that was cleaned with the example code
-use "data\example-cleaned.dta"
+use "data\cleaned\example-cleaned.dta"
 
 ******************************* EXAMPLE ****************************************
 // Creates a histogram of the income variable

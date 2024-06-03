@@ -11,17 +11,17 @@ local project_dir "C:\Users\tonym\Documents\GitHub\example-project\"
 cd `project_dir'
 
 // Loads the Excel data - first sheet - sets firstrow as variable names - clears any existing data before loading
-import excel "data\Survey Data.xlsx", sheet("Sheet1") firstrow clear
+import excel "data\raw\Survey Data.xlsx", sheet("Sheet1") firstrow clear
 
 ***************************** EXAMPLES *****************************************
 //Example 1. Merge Medical Data
 //Load Excel medical data
-import excel using "data\Medical History Data", firstrow clear
+import excel using "data\raw\Medical History Data", firstrow clear
 //Save medical data as STATA data file
 save "temp\medical_data.dta", replace
 
 //Load Excel survey data
-import excel "data\Survey Data.xlsx", sheet("Sheet1") firstrow clear
+import excel "data\raw\Survey Data.xlsx", sheet("Sheet1") firstrow clear
 //Merge survey data using the unique variable Name with the STATA medical data file - do not generate the merge column
 merge 1:1 Name using "temp\medical_data.dta", nogen
 
@@ -60,12 +60,12 @@ label define major_label 1 "engineering" 2 "chemistry" 3 "biology" 4 "physics" 5
 label values Degree major_label
 
 //Example 9. Saving the data to a STATA data file and replace the file if it already exists
-save "data\example-cleaned.dta", replace
+save "data\cleaned\example-cleaned.dta", replace
 
 
 ****************************** TASKS *******************************************
 // Loads the Excel data - first sheet - sets firstrow as variable names - clears any existing data before loading
-import excel "data\Survey Data.xlsx", sheet("Sheet1") firstrow clear
+import excel "data\raw\Survey Data.xlsx", sheet("Sheet1") firstrow clear
 
 ** Reloaded the data. Now try to do the following tasks!
 ** Use the examples above as a guide.
