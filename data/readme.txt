@@ -1,3 +1,4 @@
+SURVEY DATA
 Degree
 1  mechanical engineering
 2  chemistry
@@ -36,3 +37,11 @@ Military Service
 Active  currently active service
 2  former service with 2 years
 4  former service with 4 years
+
+MEDICAL DATA
+Health Insurance
+PPO  preferred provider organizations
+HMO  health maintenance organizations
+
+EMPLOYMENT DATA
+Workers Compensation (annual)
