@@ -35,7 +35,6 @@ graph export "graphs\example\example marriage pie graph.png", as(png) name("Grap
 // Creates a graph with a line of best fit between age and income
 twoway (scatter Income Age) (lfit Income Age), title("Example: Age on Income")
 
-
 // Saves the graph
 graph export "graphs\example\example age-income graph.png", as(png) name("Graph") replace
 
@@ -54,3 +53,5 @@ graph export "graphs\example\example age-income graph.png", as(png) name("Graph"
 
 **Task: Recreate the pie graph above. What is the difference with this graph? Save this graph as "marriage pie graph.png" in the "final" subfolder. Be sure to change the title to an appropriate name.
 
+
+**Task: Recreate the graph with the line of best fit between age and income. What is the difference with this graph? Is there still anything strange about it? Save this graph as "age-income graph.png" in the "final" subfolder. Be sure to change the title to an appropriate name.
