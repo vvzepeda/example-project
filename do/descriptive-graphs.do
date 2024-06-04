@@ -15,13 +15,19 @@ use "data\cleaned\example-cleaned.dta"
 
 ******************************* EXAMPLE ****************************************
 // Creates a histogram of the income variable
-histogram Income, frequency
+histogram Income, frequency title("Example: Income Histogram")
+
+// Saves the histogram
+graph export "graphs\example\example income histogram.png", as(png) name("Graph") replace
 
 // What's wrong with this picture?
 
 
 // Creates a pie graph of the Married variable categories
-graph pie, over(Married)
+graph pie, over(Married) title("Example: Marriage Pie")
+
+// Saves the pie graph
+graph export "graphs\example\example marriage pie graph.png", as(png) name("Graph") replace
 
 // What's wrong with this picture?
 
@@ -30,8 +36,8 @@ graph pie, over(Married)
 **Task: Load the data you had cleaned yourself from load-clean-data.do
 
 
-**Task: Recreate the histogram above. What is the difference with this graph?
+**Task: Recreate the histogram above. What is the difference with this graph? Save this graph as "income histogram.png" in the final subfolder. Be sure to change the title to an appropriate name.
 
 
-**Task: Recreate the pie graph above. What is the difference with this graph?
+**Task: Recreate the pie graph above. What is the difference with this graph? Save this graph as "marriage pie graph.png" in the final subfolder. Be sure to change the title to an appropriate name.
 
