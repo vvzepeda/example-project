@@ -19,7 +19,19 @@ histogram Income, frequency
 
 // What's wrong with this picture?
 
-******************************* TASK *******************************************
 
-**Task: Load the data you cleaned and recreate the histogram above. What is the difference with this graph?
+// Creates a pie graph of the Married variable categories
+graph pie, over(Married)
+
+// What's wrong with this picture?
+
+
+******************************* TASK *******************************************
+**Task: Load the data you had cleaned yourself from load-clean-data.do
+
+
+**Task: Recreate the histogram above. What is the difference with this graph?
+
+
+**Task: Recreate the pie graph above. What is the difference with this graph?
 
