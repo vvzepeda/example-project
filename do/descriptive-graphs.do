@@ -32,6 +32,16 @@ graph export "graphs\example\example marriage pie graph.png", as(png) name("Grap
 // What's wrong with this picture?
 
 
+// Creates a graph with a line of best fit between age and income
+twoway (scatter Income Age) (lfit Income Age), title("Example: Age on Income")
+
+
+// Saves the graph
+graph export "graphs\example\example age-income graph.png", as(png) name("Graph") replace
+
+// What's wrong with this picture?
+
+
 ******************************* TASK *******************************************
 **Task: Load the data you had cleaned yourself from load-clean-data.do
 
