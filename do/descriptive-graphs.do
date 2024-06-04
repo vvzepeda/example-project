@@ -36,8 +36,11 @@ graph export "graphs\example\example marriage pie graph.png", as(png) name("Grap
 **Task: Load the data you had cleaned yourself from load-clean-data.do
 
 
-**Task: Recreate the histogram above. What is the difference with this graph? Save this graph as "income histogram.png" in the final subfolder. Be sure to change the title to an appropriate name.
+**Task: STATA will not save files into a folder that does not exist. Create a new folder called "final" in the "~GitHub\example-project\graphs" folder.
 
 
-**Task: Recreate the pie graph above. What is the difference with this graph? Save this graph as "marriage pie graph.png" in the final subfolder. Be sure to change the title to an appropriate name.
+**Task: Recreate the histogram above. What is the difference with this graph? Save this graph as "income histogram.png" in the "final" subfolder. Be sure to change the title to an appropriate name.
+
+
+**Task: Recreate the pie graph above. What is the difference with this graph? Save this graph as "marriage pie graph.png" in the "final" subfolder. Be sure to change the title to an appropriate name.
 
